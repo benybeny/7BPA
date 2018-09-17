@@ -15,7 +15,16 @@ public class ComputeBMI{
 double weightInKilogams= weight*  KILOGRAMS_PER_POUND;
 double heightInMeters=height * METERS_PER_INCH;
 
+double BMI=weightInKilogams/(heightInMeters*heightInMeters);
 
+if (BMI<18) {
+  System.out.println("Peso bajo.Necesario valorar signos de nutricion ");
+}else { if (BMI>=18 && BMI<=24.5) {
+  System.out.println( "holaalal");
+
+}
+
+}
 
 
 
